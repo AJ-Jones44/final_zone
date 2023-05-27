@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 2rem auto;
+    padding: 11px;
+    max-width:1000px;
+    justify-content: space-around;
+}
+.flexbox-item {
+    margin-left: 5px;
+    padding: 11px;
+}
+.flexbox-item:first-child{
+    margin:0;
+}
+.flexbox-item-4 {
+    order: -1
+}
+
