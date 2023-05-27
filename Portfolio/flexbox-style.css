@@ -1,0 +1,77 @@
+
+body {
+    background-image: url("blue.jpg");
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+
+
+
+}
+
+
+
+.Navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    flex-direction: row;
+    align-items: stretch;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.Title {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+}
+
+.My_photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+}
+
+.networking_sites {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    font-size: 115px;
+}
+
+.my_skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectpics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+}
+
+.section-head {
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: center;
+
+}
+
+.signature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    
+}
